@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <title>Easy Slider jQuery Plugin Demo</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
+    <link rel="stylesheet" href="../../src/css/screen.css">
+    <link rel="stylesheet" href="../../dist/css/easy-slider.css">
+</head>
+<body>
+
+<div id="container">
+
+    <h1>
+        Easy Slider jQuery Plugin
+        <br><small>Multiple sliders</small>
+    </h1>
+
+    <div id="content">
+
+        <div id="slider">
+            <ul>
+                <li><a href="#"><img src="//lorempixel.com/700/350/people" alt="Css Template Preview" /></a></li>
+                <li><a href="#"><img src="//lorempixel.com/700/350/business" alt="Css Template Preview" /></a></li>
+                <li><a href="#"><img src="//lorempixel.com/700/350/sports" alt="Css Template Preview" /></a></li>
+                <li><a href="#"><img src="//lorempixel.com/700/350/nature" alt="Css Template Preview" /></a></li>
+                <li><a href="#"><img src="//lorempixel.com/700/350/animals" alt="Css Template Preview" /></a></li>
+            </ul>
+        </div>
+
+        <div id="slider2">
+            <ul>
+                <li><a href="#"><img src="//lorempixel.com/700/350/abstract" alt="Css Template Preview" /></a></li>
+                <li><a href="#"><img src="//lorempixel.com/700/350/nightlife" alt="Css Template Preview" /></a></li>
+                <li><a href="#"><img src="//lorempixel.com/700/350/technics" alt="Css Template Preview" /></a></li>
+                <li><a href="#"><img src="//lorempixel.com/700/350/transport" alt="Css Template Preview" /></a></li>
+                <li><a href="#"><img src="//lorempixel.com/700/350/city" alt="Css Template Preview" /></a></li>
+            </ul>
+        </div>
+
+        <h3>Usage</h3>
+
+<pre>(function ($) {
+    $(function () {
+        $("#slider").easySlider({
+            auto: true,
+            continuous: true,
+            nextId: "slider1next",
+            prevId: "slider1prev"
+        });
+        $("#slider2").easySlider({
+            numeric: true
+        });
+    });
+})(jQuery);</pre>
+
+        <p>
+            <a href="http://cssglobe.com/post/5780/easy-slider-17-numeric-navigation-jquery-slider"
+               title="read more about this jquery plugin">See the original article</a>
+        </p>
+
+        <p>
+            <strong>Easy Slider</strong>
+            jQuery Plugin is brought to you by
+            <a href="http://cssglobe.com"
+               title="web standards magazine and css news">Css Globe</a>
+            and supported by <a href="http://templatica.com">Css Templates</a> by
+            Templatica
+        </p>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../../dist/js/easy-slider.js"></script>
+<script type="text/javascript">
+(function ($) {
+    $(function () {
+        $("#slider").easySlider({
+            auto: true,
+            continuous: true,
+            nextId: "slider1next",
+            prevId: "slider1prev"
+        });
+        $("#slider2").easySlider({
+            numeric: true
+        });
+    });
+})(jQuery);
+</script>
+
+</body>
+</html>

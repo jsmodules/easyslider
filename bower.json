@@ -1,0 +1,27 @@
+{
+    "name": "easyslider",
+    "version": "1.7.1",
+    "authors": [
+        "Alen Grakalic",
+        "Brad Berger <brad@bradb.net>"
+    ],
+    "description": "A jQuery image slider plugin",
+    "keywords": [
+        "jquery",
+        "plugin",
+        "image",
+        "slider"
+    ],
+    "license": "MIT",
+    "homepage": "https://bradberger.github.io/easyslider",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "*"
+    }
+}
